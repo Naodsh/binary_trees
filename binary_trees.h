@@ -52,5 +52,7 @@ int binary_tree_is_complete_helper(const binary_tree_t *tree,
 		size_t index, size_t size, size_t count);
 
 
+binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+
 void binary_tree_print(const binary_tree_t *);
 #endif /* _BINARY_TREES_H_ */
