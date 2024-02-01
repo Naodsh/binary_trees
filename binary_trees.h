@@ -44,7 +44,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 		const binary_tree_t *second);
 int binary_tree_is_ancestor(const binary_tree_t *ancestor,
-                const binary_tree_t *node) 
+                const binary_tree_t *node); 
 
 
 
