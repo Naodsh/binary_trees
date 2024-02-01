@@ -17,7 +17,7 @@ typedef struct binary_tree_s
 	struct binary_tree_s *parent;
 	struct binary_tree_s *left;
 	struct binary_tree_s *right;
-} binary_tree_t;
+} binary_tree_t, bst_t;
 
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
@@ -59,6 +59,7 @@ int binary_tree_is_bst(const binary_tree_t *tree);
 int is_bst_util(const binary_tree_t *tree, int min, int max);
 
 bst_t *bst_insert(bst_t **tree, int value);
+bst_t *array_to_bst(int *array, size_t size);
 
 
 void binary_tree_print(const binary_tree_t *);
